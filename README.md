@@ -134,6 +134,9 @@ const shortWords = words.filter((word) => {
 // console.log(shortWords) will return [ 'the', 'is', 'an' ]
 ```
 
+
+Note : We will get a different response if we simply Return the data in the formula, or if we Log the Return'ed statement to our console.  Let's see what happens when we do both, and why the order of the two matters!
+
 ```js
 const words = ['the', 'world', 'is', 'round', 'like', 'an', 'orange']
 
