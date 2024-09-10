@@ -120,6 +120,16 @@ const wordsWrappedInX = words.map((word) => {
 // console.log(wordsWrappedInX) will return [ 'xthex', 'xworldx', 'xisx', 'xroundx', 'xlikex', 'xanx', 'xorangex' ]
 ```
 
+
+Similar but different!
+
+- forEach:  Iterates over a list and applies some operation with side effects to each list member (example: multiplying each element by 2) and does not return anything new.
+
+- map: This iterates over a list, transforms each member of that list, and returns another list of the same size with the transformed members (example: transforming list of strings to uppercase). It does not mutate the array on which it is called
+
+This will be much more important when we begin Mapping data on screen in DOM  Manipulation and in unit 3. For now, don't worry too much about it!
+
+
 ### [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 - `.filter()` will loop through a provided array and produce a new array that only contains some of the items. Each item in the array runs through a function. If the function returns true, the item is included in the new array.
